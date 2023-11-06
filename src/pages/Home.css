@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+}
+
+.categ {
+    margin-top: 69px;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.posts {
+    flex: 1;
+    margin-right: 250px;
+}
+
+@media (max-width: 800px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .categ {
+        position: static;
+        width: 100%;
+        margin: 0;
+    }
+    .posts {
+        display: flex;
+        margin-right: 0;
+    }
+}

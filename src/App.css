@@ -1,0 +1,37 @@
+.active {
+    background-color: rgb(163, 189, 237, 0.5);
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.createBlog {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.errorMsg {
+    color: red;
+}
+
+.home {
+    display: flex;
+    min-height: calc(100vh - 69px);
+}
+
+
+.app {
+    margin-top: 69px;
+}
+
+.edit {
+    min-height: 300px;
+}
+
+.span-details {
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: darkred;
+}
